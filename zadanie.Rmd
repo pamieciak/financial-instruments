@@ -1,0 +1,139 @@
+---
+title: "Instrumenty Finansowe"
+output: html_document
+---
+
+# Zadanie
+
+Celem projektu jest wspólne przygotowanie skryptu zawieraj¹cego dok³adne opisy
+podstawowych instrumentów finansowych z jakimi spotkaæ mo¿na siê na rynkach
+finansowych. Przewidziany czas realizacji projektu to 4 tygodnie, w trakcie
+których zrealizowane zostaæ powinny dwa zadania.
+
+1. W ci¹gu pierwszych dwóch tygodni trwania projektu student samodzielnie
+   przygotowuje opis przydzielonego mu do realizacji fragmentu skryptu.
+2. W ci¹gu kolejnych dwóch tygodni studenci przygotowuj¹cy ten sam fragment
+   skryptu redaguj¹ w oparciu o samodzielnie wykonan¹ pracê uwspólnion¹ jego
+   wersjê.
+
+Za poprawne zrealizowanie projektu uzyskaæ mo¿na ³¹cznie 20 punktów. Przy czym
+rzetelna realizacja pierwszej czêœci projektu warta jest do 12 punktów,
+natomiast drugiej jego czêœci 8 punktów.
+
+Pierwsza czêœæ projektu oceniana bêdzie przede wszystkim pod k¹tem solidnego
+wykonania zadania, rozumianego g³ównie w kontekœcie merytorycznym, ale równie¿
+estetycznym (poprawny jêzyk, przejrzysty uk³ad treœci). Ceniona bêdzie tutaj
+oryginalnoœæ materia³u zaprezentowanego przez studenta, wzglêdem materia³u
+prezentowanego przez pozosta³ych studentów omawiaj¹cych ten sam temat.
+
+Ocena drugiej czêœci projektu uwzglêdniaæ bêdzie te same elementy, które
+wymieniono przy opisie sposobu oceniania czêœci pierwszej. W razie w¹tpliwoœci
+co do zaanga¿owania w pracê grupy wszystkich jej cz³onków, mo¿liwe bêdzie
+zró¿nicowanie ocen na podstawie porównania prac przygotowanych indywidualnie z
+prac¹ przygotowan¹ wspólnie.
+
+# Podzia³ tematów
+
+```{R}
+set.seed(4846891)
+
+c(
+    111615, 153418, 153419, 177028, 148555, 154966, 154974, 177029, 177030,
+    177031, 177522, 154994, 155007, 157427, 155034, 148634, 155042, 155044,
+    177523, 148643, 155050, 155051, 148649, 155052
+) -> indices
+
+c(
+    'Wprowadzenie', 'Instrumenty rynku pieniê¿nego', 'Obligacje', 'Akcje', 'Opcje',
+    'Kontrakty terminowe forward i futures', 'Kontrakty swap', 'Indeksy rynku'
+) -> subjects
+
+data.frame('NR IND.'=indices, 'TEMAT'=sample(rep(subjects, 3)))
+```
+
+# Opis tematów
+
+Poni¿ej zamieszczono wymagania szczegó³owe dotycz¹ce ka¿dego z tematów
+przydzielonych do realizacji. Poza wspomnianymi wymaganiami szczegó³owymi, ka¿dy
+temat musi spe³niaæ pewne wymagania ogólne wymienione poni¿ej.
+
+- Fragment skryptu realizuj¹cy dany temat nale¿y przygotowaæ w postaci pliku
+  RMarkdown.
+- Wzory w ramach pliku RMarkdown nale¿y konstruowaæ z wykorzystaniem LaTeXa.
+- Plik przygotowywany w ramach pierwszej czêœci projektu nale¿y nazwaæ numerem
+  swojego indeksu, a ewentualne materia³y towarzysz¹ce przekazaæ w katalogu o
+  takiej samej nazwie.
+- Jako nazwê pliku przygotowywanego w ramach drugiej czêœci projektu nale¿y
+  przyj¹æ nazwê tematu projektu, a ewentualne materia³y towarzysz¹ce przekazaæ w
+  katalogu o takiej samej nazwie.
+- Ka¿da praca powinna koñczyæ siê sekcj¹ bibliografii, zawieraj¹c¹ pozycje
+  literaturowe, strony internetowe, prezentacje oraz wszelkie inne Ÿród³a
+  wykorzystywane w trakcie realizacji zadania.
+
+## Wprowadzenie
+
+Nale¿y:
+
+- zdefiniowaæ pojêcie instrumentu finansowego,
+- przedstawiæ typowe podzia³y instrumentów finansowych.
+
+## Instrumenty rynku pieniê¿nego
+
+Nale¿y:
+
+- opisaæ bony skarbowe,
+- opisaæ bony komercyjne,
+- opisaæ certyfikaty depozytowe,
+- opisaæ transakcje repo i reverse repo,
+- przedstawiæ przyk³ady obliczeniowe dla tych instrumentów.
+
+## Obligacje
+
+Nale¿y:
+
+- opisaæ obligacje,
+- przedstawiæ ró¿ne typy obligacji,
+- przedstawiæ przyk³ady obliczeniowe dla ró¿nych typów obligacji.
+
+## Akcje
+
+Nale¿y:
+
+- opisaæ akcje,
+- przedstawiæ przyk³ady obliczeniowe dla akcji,
+- opisaæ wybrane wskaŸniki zwi¹zane z akcjami,
+- przedstawiæ przyk³ady obliczeniowe dla wskaŸników.
+
+## Opcje
+
+Nale¿y:
+
+- opisaæ ró¿ne typy opcji,
+- przedstawiæ przyk³ady obliczeniowe dla ró¿nych typów opcji.
+
+## Kontrakty terminowe forward i futures
+
+Nale¿y:
+
+- opisaæ kontrakty terminowe forward i features,
+- przedstawiæ przyk³ady obliczeniowe dla kontraktów terminowych.
+
+## Kontrakty swap
+
+Nale¿y:
+
+- opisaæ kontrakty swap,
+- przedstawiæ przyk³ady obliczeniowe dla ró¿nych kontraktów swap.
+
+## Indeksy rynku
+
+Nale¿y:
+
+- zdefiniowaæ pojêcie indeksu rynku,
+- przedstawiæ ró¿ne sposoby obliczania indeksów rynku,
+- przedstawiæ przyk³ady obliczeniowe dla ró¿nych indeksów rynku.
+
+# Terminy
+
+- 26.10.2015 - oddanie pierwszej czêœci projektu.
+- 09.11.2015 - oddanie drugiej czêœci projektu.
