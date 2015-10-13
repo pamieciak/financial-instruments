@@ -137,3 +137,14 @@ Nale¿y:
 
 - 26.10.2015 - oddanie pierwszej czêœci projektu.
 - 09.11.2015 - oddanie drugiej czêœci projektu.
+
+Za oddanie projektu uwa¿a siê zrobienie pull requesta zawieraj¹cego wykonan¹
+pracê do repozytorium wyk³adowcy.
+
+# Uwagi koñcowe
+
+Egzamin z przedmiotu Ekonometria Finansowa mo¿e zawieraæ pytania oraz zadania,
+które zgodnie z wytycznymi projektu **powinny zostaæ uwzglêdnione** w skrypcie
+powsta³ym w efekcie jego realizacji. Stwierdzenie to dotyczy zarówno czêœci
+teoretycznej (definicje, podzia³y itp.) oraz praktycznej (przyk³adowe
+obliczenia) egzaminu.
