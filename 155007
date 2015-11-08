@@ -1,0 +1,102 @@
+---
+title: "Instrumenty rynku pieniężnego"
+output: html_document
+---
+
+
+
+
+
+### Bony skarbowe###
+
+![image](/Users/adm/Desktop/projekt/bon.jpg)
+*przykład bonu skarbowego z XX wieku*
+
+
+
+**Bony skarbowe**, zwane też wekslami skarbowymi, są instrumentami dłużnymi emitowanymi przez Skarb Państwa, w celu sfinansowania potrzeb budżetu. Cechuje je **krótkoterminowość** tzn. termin *zapadalności* bonu wynosi od 1 do 52 tygodni. W Polsce bony skarbowe najczęściej są emitowane na okres 13 tygodni, 26 tygodni, 39 tygodni i 52 tygodni. Bony skarbowe mają gwarancję wykupu, co oznacza, że ich rentowność jest niemalże pewna. Z racji przynależności do gruby *instrumentów zerokuponowych* inwestor, już w monecie nabycia bonu, wie ile na tym zyska. Wartość nominalna jednego bonu skarbowego wynosi **10000 zł**. Przy wycenie bonów skarbowych i szacowaniu ich rentowności, wykorzystuje się uproszczenie, zakładające, że rok ma 360 dni. Dlatego też, bony skarbowe są idealną alternatywą dla lokat ( rentowność rocznej 5% lokaty jest mniejsza, niż bony skarbowego o podobnym oprocentowaniu). 
+
+
+$P=\frac{10.000}{1+r+\frac{T}{360}}$
+gdzie:
+r - stawki procentowe
+T - okres wykupu
+
+**Przykłądowe zastosowanie wzoru**
+
+
+Zakwotuj bon skarbowy 52W o terminie wykupu 132 dni dla inwestora, który jest zainteresowany 
+nabyciem. Nominał: 10000zł. Stawka: 4,15%
++oblicz cenę jaką inwestor zapłacił za bony?
+
+$P=\frac{10.000}{1+0,0415+\frac{132}{360}}=9850,11$
+
+----------
+
+
+
+
+
+
+
+### Bony komercyjne###
+
+**Bony komercyjne** - papiery komercyjne przedsiębiorstw - podobnie jak bony Skarbu Państwa, są instrumentami **krótkoterminowymi** (do roku). Handel nimi odbywa się na rynku pozagiełdowym. Bony te są *zerokuponowe* - zdyskontowane. Oznacza to, że inwestor już w momencie nabycia, zna rentowność papieru dłużnego. Bony komercyjne, są dla przedsiębiorstw alternatywą szybkich pożyczek. Bardziej opłacalne jest dla nich emitować zdyskontowany bon i wykupić go po cenie nominalnej od nabywcy, niż zapożyczać kapitał z oprocentowaniem. Z racji handlu na rynku **OTC** emisje papierów komercyjnych przedsiębiorstw mają charakter niepubliczny i przeprowadzane są przez agentów emisji, czyli bank lub biuro maklerskie na zlecenie przedsiębiorcy. Rentowność bonu zależy od trzech głównych czynników:
+
+ - wielkości spółki - emitenta
+ - wiarygodności spółki 
+ - sytuacji rynkowej pieniądza
+
+
+
+----------
+
+
+
+### Certyfikaty depozytowe ###
+
+**Certyfikaty depozytowe** - zbywalny papier wartościowy emitowany przez banki z terminem wykupienia do 1 roku (dla certyfikatów krótkoterminowych) lub do lat 5 (dla certyfikatów długoterminowych). **Certyfikat** jest dokumentem potwierdzającym wpłatę, na jaką bank "zapożyczył" się u inwestora, składającego depozyt i wysokością sopy procentowej. Takim dokumentem w pełni legalnie można handlować na rynku wtórnym. Zaletą Certyfikatów depozytowych jest pewność lokaty, która nie może być wycofana z banku przed umownym terminem, a deponent lokaty może ją **w każdej chwili** upłynnić, zbywając posiadany certyfikat właśnie na rynku wtórnym **nie tracąc odsetek**. Stopa oprocentowania certyfikatów depozytowych jest zwykle wyższa od stopy oprocentowania bonów skarbowych, co wynika stąd, że ryzyko niewypłacalności banków jest wyższe niż rządu, a ponadto certyfikaty depozytowe muszą być konkurencyjne. Niestety certyfikaty mają w sobie cechy inwestycji na rynku kapitałowym tj. możliwość zysku/straty poprzez zmianę rynkowych stóp procentowych.
+
+----------
+
+
+### Transakcje repo i reverse repo ###
+
+**Transakcje repo** polega na zakupie danego instrumentu finansowego i jednoczesnej deklaracji sprzedaży go w ustalonej dacie w przyszłości. Zaletą transakcji repo jest **niższe** ryzyko, niż w przypadku lokat międzybankowych. Transakcje te są bardzo często zawierane na linii bank centralny - bank komercyjny. Dzięki temu banki centralne mogą udzielać pożyczek właśnie ww. bankom komercyjnym jednocześnie zachowując optymalną skalę ryzyka.
+
+![image](/Users/adm/Desktop/projekt/repo.jpg)
+
+Odwrotnością transakcji repo jest **reverse repo** - sprzedaż papieru wartościowego z deklaracją jego odkupu w przyszłości.
+
+----------
+
+### Przykłady zadań obliczeniowych dla powyższch instrumentów:
+Oblicz 150 dniową rentowność bonu skarbowego, jeżeli jego cena nominalna to 10000zł, a cena zakupu w tym okresie to 9500zł.
+
+*Wzór*:
+
+$r_{150}=\frac{10.000}{9500}-1=0,053=5 procent$
+
+Dyskonto wynosi:
+
+$D = 10000-9500 = 500zł$
+
+#### Zakończenie
+
+Bardzo dziękuję za czas poświęcony zapoznaniu się z moim projektem. Jeżeli chodzi o ilość zadań i wzorów - tego typu instrumenty dłużne oblicza się w podobny sposób, przekształcając tylko powyższe wzory.
+
+*bibliografia*
+
+http://mfiles.pl/pl/index.php/Bony_skarbowe
+
+http://aleksandermercik.pl/dokumenty/konspekty/rynki_finansowe/amercik_-_rynek_finansowy_-_rynek_pieniezny.pdf
+
+http://poradnik.ngo.pl/bony_skarbowe
+
+https://www.nbportal.pl/slownik/papiery-komercyjne-przedsiebiorstw
+
+https://pl.wikipedia.org/wiki/Certyfikat_depozytowy
+
+http://mfiles.pl/pl/index.php/Certyfikat_depozytowy
+
+https://www.nbportal.pl/slownik/repo
